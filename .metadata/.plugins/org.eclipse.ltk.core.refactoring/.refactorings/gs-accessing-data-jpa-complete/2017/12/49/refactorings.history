@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;gs-accessing-data-jpa-complete&apos;&#x0D;&#x0A;- Original project: &apos;gs-accessing-data-jpa-complete&apos;&#x0D;&#x0A;- Original element: &apos;gs-accessing-data-jpa-complete/src/test/java/isep.web.sakila.jpa.repositories.tests&apos;" description="Delete element" element1="/src\/test\/java&lt;isep.web.sakila.jpa.repositories.tests" element2="/src\/test\/java&lt;isep.web.sakila.jpa.repositories" element3="/src\/test\/java&lt;isep.web.sakila.jpa" element4="/src\/test\/java&lt;isep.web.sakila" element5="/src\/test\/java&lt;isep.web" element6="/src\/test\/java&lt;isep" elements="6" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1512477204968" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,70 @@
+package isep.web.sakila.webapi.model;
+
+import isep.web.sakila.jpa.entities.Customer;;
+
+public class CustomerWO extends WebObject
+{
+
+	private static final long	serialVersionUID	= -1377067679473844279L;
+
+	protected int						customerId;
+	protected String					lastName;
+	protected String					firstName;
+
+	public CustomerWO()
+	{
+		super();
+	}
+
+	public CustomerWO(int customerId, String lastName, String firstName)
+	{
+		super();
+		this.customerId = customerId;
+		this.lastName = lastName;
+		this.firstName = firstName;
+	}
+
+	public CustomerWO(final Customer customer)
+	{
+		super();
+		this.customerId = customer.getCustomerId();
+		this.lastName = customer.getLastName();
+		this.firstName = customer.getFirstName();
+	}
+
+	public String getFirstName()
+	{
+		return firstName;
+	}
+
+	public int getCustomerId()
+	{
+		return customerId;
+	}
+
+	public String getLastName()
+	{
+		return lastName;
+	}
+
+	public void setFirstName(String firstName)
+	{
+		this.firstName = firstName;
+	}
+
+	public void setCustomerId(int customerId)
+	{
+		this.customerId = customerId;
+	}
+	public void setLastName(String lastName)
+	{
+		this.lastName = lastName;
+	}
+
+	@Override
+	public String toString()
+	{
+		return "Customer [id=" + this.customerId + ", LastNanem=" + this.lastName + ", First=" + this.firstName + "]";
+	}
+}
+
